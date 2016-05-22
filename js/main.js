@@ -76,7 +76,7 @@
         if (box.depth > 15)
             return box.closeBlock;
         if (!exclude || exclude == '' || box.depth == 0) {
-            return box.writeFunction();
+            return box.writeFunction;
         }
         if (exclude == '!function') {
             var R = Random(330);
